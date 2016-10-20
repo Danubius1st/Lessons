@@ -28,3 +28,5 @@ C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpr
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Basics.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpressions.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.dll
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.pdb

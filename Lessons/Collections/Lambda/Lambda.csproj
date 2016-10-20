@@ -4,17 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA517A48-D54A-495E-9ABC-D9597D3B6C25}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{CBFD80F5-C38E-4C03-8A4E-E27E1DD89392}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Collections</RootNamespace>
-    <AssemblyName>Collections</AssemblyName>
+    <RootNamespace>Lambda</RootNamespace>
+    <AssemblyName>Lambda</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,30 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayExample.cs" />
-    <Compile Include="ArrayListExample.cs" />
-    <Compile Include="GenericListsExample.cs" />
-    <Compile Include="LinkedListExample.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="LambdaExpressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StronglyTypedList.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Basics\Basics.csproj">
-      <Project>{fd1b089f-a89f-4540-8d12-1ad377424b62}</Project>
-      <Name>Basics</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Lambda\Lambda.csproj">
-      <Project>{cbfd80f5-c38e-4c03-8a4e-e27e1dd89392}</Project>
-      <Name>Lambda</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LinqExpressions\LinqExpressions.csproj">
-      <Project>{fa0286e8-f9df-4c6f-8574-ff3873b3f95e}</Project>
-      <Name>LinqExpressions</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

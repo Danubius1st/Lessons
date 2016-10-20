@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Linq.Expressions;
 using Basics;
+using Lambda;
 using LinqExpressions;
 
 namespace Collections
@@ -109,13 +111,53 @@ namespace Collections
             }
         }
 
+        static void DisplayLambdaExpressions()
+        {
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Lambda - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        LambdaExpression lmbd = new LambdaExpressions("ex. 1.1 - ");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
+        }
+
         static void DisplayLinqExpressions()
         {
             int test = -1;
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.Write("LinqExpressions - Enter exercise no: (1 to 4) ");
+                Console.Write("Linq - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();
@@ -155,7 +197,7 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("Basics (1)\nCollections (2)\nLinq (3)\n0 - exit: ");
+                Console.Write("Basics (1)\nCollections (2)\nLambda (3)\nLinq (4)\n0 - exit: ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();
@@ -175,6 +217,10 @@ namespace Collections
                         break;
 
                     case 3:
+                        DisplayLambdaExpressions();
+                        break;
+                        ;
+                    case 4:
                         DisplayLinqExpressions(); //test = -1;
                         break;
 
