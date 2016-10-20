@@ -69,14 +69,84 @@ namespace Collections
 
         static void DisplayBasics()
         {
-            TypeCodeExample tc = new TypeCodeExample("ex1.1 - TypeCode Enumeration");
-            NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
-            FormatExample fe = new FormatExample("ex1.3 - Format");
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Basics - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        TypeCodeExample tc = new TypeCodeExample("ex1.1 - TypeCode Enumeration");
+                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
+                        FormatExample fe = new FormatExample("ex1.3 - Format");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
         }
 
         static void DisplayLinqExpressions()
         {
-            LinqClass Lq = new LinqClass("Linq expressions - ");
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("LinqExpressions - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        LinqClass Lq = new LinqClass("Linq expressions - ");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
         }
 
         static void Main(string[] args)
