@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq.Expressions;
+
 using Basics;
 using Lambda;
 using LinqExpressions;
@@ -93,7 +94,7 @@ namespace Collections
                         break;
 
                     case 2:
-                        Console.WriteLine("Not implemented!");
+                        OperatorExample oe = new OperatorExample("ex.1.2 - Operators overload");
                         break;
 
                     case 3:
