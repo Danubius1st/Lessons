@@ -30,3 +30,6 @@ C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpr
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collections.exe.config
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.exe
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.pdb
