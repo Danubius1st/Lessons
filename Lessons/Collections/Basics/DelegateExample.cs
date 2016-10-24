@@ -7,6 +7,7 @@ namespace Basics
 
     public class DelegateExample
     {
+    	// https://msdn.microsoft.com/en-us/library/ms173176.aspx
         public void Example(string msg)
         {
             DelegateExample m = new DelegateExample();
