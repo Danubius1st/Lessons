@@ -1,5 +1,0 @@
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambda\bin\Debug\Lambda.dll
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambda\bin\Debug\Lambda.pdb
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambda\obj\Debug\Lambda.csprojResolveAssemblyReference.cache
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambda\obj\Debug\Lambda.dll
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambda\obj\Debug\Lambda.pdb

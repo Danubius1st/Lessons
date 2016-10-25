@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Linq.Expressions;
 using Basics;
-using Lambda;
+using Lambdas;
 using LinqExpressions;
 
 namespace Collections
@@ -88,9 +87,10 @@ namespace Collections
 
                     case 1:
                         TypeCodeExample tc = new TypeCodeExample("ex. 1.1 - TypeCode Enumeration");
-                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator (exception!)");
+                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
                         FormatExample fe = new FormatExample("ex. 1.3 - Format");
                         DelegateExample del = new DelegateExample(); del.Example("ex. 1.4 - Delegates");
+                        del.Example();
                         break;
 
                     case 2:
@@ -118,7 +118,7 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.Write("Lambda - Enter exercise no: (1 to 4) ");
+                Console.Write("Lambdas - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();
@@ -130,7 +130,7 @@ namespace Collections
                         break;
 
                     case 1:
-                        LambdaExpression lmbd = new LambdaExpressions("ex. 1.1 - ");
+                        LambdaExample lmbd = new LambdaExample("ex. 1.1");
                         break;
 
                     case 2:
@@ -198,7 +198,7 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("Basics (1)\nCollections (2)\nLambda (3)\nLinq (4)\n0 - exit: ");
+                Console.Write("Basics (1)\nCollections (2)\nLambdas (3)\nLinq (4)\n0 - exit: ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();

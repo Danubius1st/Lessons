@@ -25,11 +25,11 @@ C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collecti
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collections.exe
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collections.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Basics.dll
-C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpressions.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Basics.pdb
-C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambda.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpressions.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.exe
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.pdb
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.dll
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.pdb
