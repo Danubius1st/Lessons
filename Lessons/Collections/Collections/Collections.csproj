@@ -59,6 +59,10 @@
       <Project>{fd1b089f-a89f-4540-8d12-1ad377424b62}</Project>
       <Name>Basics</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Lambdas\Lambdas.csproj">
+      <Project>{1E0A5A95-BBD2-4F1A-9BE4-1D72F099BA3F}</Project>
+      <Name>Lambdas</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LinqExpressions\LinqExpressions.csproj">
       <Project>{fa0286e8-f9df-4c6f-8574-ff3873b3f95e}</Project>
       <Name>LinqExpressions</Name>

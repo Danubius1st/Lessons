@@ -1,5 +1,6 @@
 ﻿using System;
 using Basics;
+using Lambdas;
 using LinqExpressions;
 
 namespace Collections
@@ -69,14 +70,126 @@ namespace Collections
 
         static void DisplayBasics()
         {
-            TypeCodeExample tc = new TypeCodeExample("ex1.1 - TypeCode Enumeration");
-            NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
-            FormatExample fe = new FormatExample("ex1.3 - Format");
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Basics - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        TypeCodeExample tc = new TypeCodeExample("ex. 1.1 - TypeCode Enumeration");
+                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
+                        FormatExample fe = new FormatExample("ex. 1.3 - Format");
+                        DelegateExample del = new DelegateExample(); del.Example("ex. 1.4 - Delegates");
+                        del.Example();
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
+        }
+
+        static void DisplayLambdaExpressions()
+        {
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Lambdas - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        LambdaExample lmbd = new LambdaExample("ex. 1.1");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
         }
 
         static void DisplayLinqExpressions()
         {
-            LinqClass Lq = new LinqClass("Linq expressions - ");
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Linq - Enter exercise no: (1 to 4) ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        LinqClass Lq = new LinqClass("Linq expressions - ");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 3:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
         }
 
         static void Main(string[] args)
@@ -85,7 +198,7 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("Basics (1)\nCollections (2)\nLinq (3)\n0 - exit: ");
+                Console.Write("Basics (1)\nCollections (2)\nLambdas (3)\nLinq (4)\n0 - exit: ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();
@@ -105,6 +218,10 @@ namespace Collections
                         break;
 
                     case 3:
+                        DisplayLambdaExpressions();
+                        break;
+                        ;
+                    case 4:
                         DisplayLinqExpressions(); //test = -1;
                         break;
 

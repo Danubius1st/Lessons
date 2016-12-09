@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DelegateExample.cs" />
     <Compile Include="FormatExample.cs" />
     <Compile Include="NullCoalescingOperatorExample.cs" />
+    <Compile Include="OperatorExample.cs" />
     <Compile Include="TypeCodeExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

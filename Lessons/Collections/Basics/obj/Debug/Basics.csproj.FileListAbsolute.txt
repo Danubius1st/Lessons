@@ -8,3 +8,8 @@ C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\Basics\bin\Debu
 C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\Basics\obj\Debug\Basics.csprojResolveAssemblyReference.cache
 C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\Basics\obj\Debug\Basics.dll
 C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\Basics\obj\Debug\Basics.pdb
+C:\Users\new\Documents\GitHub\Lessons\Collections\Basics\bin\Debug\Basics.dll
+C:\Users\new\Documents\GitHub\Lessons\Collections\Basics\bin\Debug\Basics.pdb
+C:\Users\new\Documents\GitHub\Lessons\Collections\Basics\obj\Debug\Basics.csprojResolveAssemblyReference.cache
+C:\Users\new\Documents\GitHub\Lessons\Collections\Basics\obj\Debug\Basics.dll
+C:\Users\new\Documents\GitHub\Lessons\Collections\Basics\obj\Debug\Basics.pdb
