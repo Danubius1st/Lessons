@@ -9,9 +9,12 @@ namespace Lesson03.Core
         private readonly List<ITablet> _tablets;
         private readonly List<ISmartPhone> _phones;
 
-        public IEnumerable<IComputer> Computers { get { return _computers.ToArray(); } }
-        public IEnumerable<ITablet> Tablets { get { return _tablets.ToArray(); } }
-        public IEnumerable<ISmartPhone> SmartPhones { get { return _phones.ToArray(); } }
+        //public IEnumerable<IComputer> Computers { get { return _computers.ToArray(); } }
+        public IEnumerable<IComputer> Computers => _computers.ToArray();    // expression body
+        //public IEnumerable<ITablet> Tablets { get { return _tablets.ToArray(); } }
+        public IEnumerable<ITablet> Tablets => _tablets.ToArray();
+        //public IEnumerable<ISmartPhone> SmartPhones { get { return _phones.ToArray(); } }
+        public IEnumerable<ISmartPhone> SmartPhones => _phones.ToArray();
 
         public HandyDandyManufacturingCompany(IFactory factory)
         {

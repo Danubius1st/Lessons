@@ -10,6 +10,5 @@ C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\LinqExpressions
 C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\Collections\LinqExpressions\obj\Debug\LinqExpressions.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\LinqExpressions\bin\Debug\LinqExpressions.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\LinqExpressions\bin\Debug\LinqExpressions.pdb
-C:\Users\new\Documents\GitHub\Lessons\Collections\LinqExpressions\obj\Debug\LinqExpressions.csprojResolveAssemblyReference.cache
 C:\Users\new\Documents\GitHub\Lessons\Collections\LinqExpressions\obj\Debug\LinqExpressions.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\LinqExpressions\obj\Debug\LinqExpressions.pdb

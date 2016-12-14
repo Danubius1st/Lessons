@@ -23,6 +23,7 @@ namespace Lesson02Tests
             }
 
             var lines = data.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+            Console.WriteLine(lines[0]);
 
             Assert.IsTrue(lines.Length == 4);
         }

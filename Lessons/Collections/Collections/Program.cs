@@ -2,6 +2,7 @@
 using Basics;
 using Lambdas;
 using LinqExpressions;
+using Strings;
 
 namespace Collections
 {
@@ -192,13 +193,13 @@ namespace Collections
             }
         }
 
-        static void Main(string[] args)
+        static void DisplayStrings()
         {
             int test = -1;
             while (test != 0)
             {
-                Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("Basics (1)\nCollections (2)\nLambdas (3)\nLinq (4)\n0 - exit: ");
+                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.Write("Strings - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
                 System.Console.Clear();
@@ -210,11 +211,53 @@ namespace Collections
                         break;
 
                     case 1:
-                        DisplayBasics(); //test = -1;
+                        StringReaderExample ex1 = new StringReaderExample("ex. 5.1");
+                        ex1.ReaderExample();
+                        ex1.WriterExample();
                         break;
 
                     case 2:
-                        DisplayCollections(); test = -1;
+                        StringBuilderExample ex2 = new StringBuilderExample("ex. 5.2");
+                        break;
+
+                    case 3:
+                        StreamWriterExample ex3= new StreamWriterExample("ex. 5.3");
+                        break;
+
+                    case 4:
+                        Console.WriteLine("Not implemented!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Not implemented!");
+                        break;
+                }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            int test = -1;
+            while (test != 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                Console.Write("Basics (1)\nCollections (2)\nLambdas (3)\nLinq (4)\nStrings (5)\n0 - exit: ");
+                string input = Console.ReadLine();
+
+                System.Console.Clear();
+                int.TryParse(input, out test);
+                Console.ForegroundColor = ConsoleColor.Green;
+                switch (test)
+                {
+                    case 0:
+                        break;
+
+                    case 1:
+                        DisplayBasics();
+                        break;
+
+                    case 2:
+                        DisplayCollections();
                         break;
 
                     case 3:
@@ -222,7 +265,11 @@ namespace Collections
                         break;
                         ;
                     case 4:
-                        DisplayLinqExpressions(); //test = -1;
+                        DisplayLinqExpressions();
+                        break;
+
+                    case 5:
+                        DisplayStrings();
                         break;
 
                     default:
