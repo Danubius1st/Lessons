@@ -1,6 +1,6 @@
 ﻿namespace Lesson03.Core
 {
-    public class ClientAComputer
+    public class ClientAComputer : IComputer
     {
     }
 }

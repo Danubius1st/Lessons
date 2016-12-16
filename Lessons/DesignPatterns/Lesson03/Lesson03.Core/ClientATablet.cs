@@ -1,6 +1,6 @@
 ﻿namespace Lesson03.Core
 {
-    public class ClientATablet
+    public class ClientATablet : ITablet
     {
     }
 }

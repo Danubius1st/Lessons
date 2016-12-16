@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson03.Core
 {
-    class ClientBTablet
+    class ClientBTablet : ITablet
     {
     }
 }
