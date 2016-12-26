@@ -76,6 +76,7 @@ namespace Basics
 
         public void ActionExample(string msg)
         {
+            // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Action%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2);k(DevLang-csharp)&rd=true
             Action<string> messageTarget = null;
             if (msg == null)
             {
@@ -121,6 +122,11 @@ namespace Basics
         private static void ShowWindowsMessage(string message)
         {
             Console.WriteLine(message);
+        }
+
+        public void FuncExample()
+        {
+            // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Func%602);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2);k(DevLang-csharp)&rd=true
         }
     }
 }
