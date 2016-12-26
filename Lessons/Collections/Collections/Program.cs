@@ -95,15 +95,15 @@ namespace Collections
                         break;
 
                     case 2:
-                        Console.WriteLine("Not implemented!");
+                        DelegateExample del2 = new DelegateExample(); del2.ActionExample("ex. 2.1 - Actions / Delegates\n");
                         break;
 
                     case 3:
-                        Console.WriteLine("Not implemented!");
+                        DelegateExample del3 = new DelegateExample(); del3.AnonymousExample("ex.3.2 - Actions / Delegates - anonymous\n");
                         break;
 
                     case 4:
-                        Console.WriteLine("Not implemented!");
+                        DelegateExample del4 = new DelegateExample(); del4.LambdaExample("ex. 4.1 - Actions / Delegates - lambdas\n");
                         break;
 
                     default:
