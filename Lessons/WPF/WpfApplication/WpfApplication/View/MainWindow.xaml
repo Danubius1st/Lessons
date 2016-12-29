@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="350" Width="525"
+        Background="Black" WindowStyle="ThreeDBorderWindow">
+
+    <!--http://www.wpf-tutorial.com/panels/gridsplitter/-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Row 1: Header-->
+        <TextBlock Margin="10" FontSize="20" Grid.ColumnSpan="3">
+            <Bold Foreground="DarkRed">WPF</Bold>
+            <Bold Foreground="White">Example</Bold>
+        </TextBlock>
+
+        <!--Row 2: Titles-->
+        <TextBlock Grid.Row="1" Style="{StaticResource {x:Type TextBlock}}">Controls</TextBlock>
+    </Grid>
+</Window>
