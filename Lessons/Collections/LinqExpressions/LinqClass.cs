@@ -1,27 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace LinqExpressions
 {
     public class LinqClass
     {
-        internal struct phoneNo
+        private struct _phoneNo
         {
             internal IEnumerable<string> No;
         }
 
-        internal struct Person
+        private struct Person
         {
             internal string Name;
             internal int Age;
             internal string Sex;
             internal double Salary;
             internal string Job;
-            internal IEnumerable<phoneNo> PhoneNo;
+            internal IEnumerable<_phoneNo> PhoneNo;
         }
 
         private IEnumerable<Person> TableSimulation()

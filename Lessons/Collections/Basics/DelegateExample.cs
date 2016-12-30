@@ -43,11 +43,10 @@ namespace Basics
             del4.Invoke("\t4");
 
             // https://msdn.microsoft.com/en-us/library/ms173175.aspx
-            DelNtf hiDel, byeDel, multiDel, multiMinusHiDel;
-            hiDel = Hello;
-            byeDel = Goodbye;
-            multiDel = hiDel + byeDel;
-            multiMinusHiDel = multiDel - hiDel;
+            DelNtf hiDel = Hello;
+            DelNtf byeDel = Goodbye;
+            var multiDel = hiDel + byeDel;
+            var multiMinusHiDel = multiDel - hiDel;
 
             Console.Write("\tInvoking delegate hiDel:"); hiDel("A\n");
             Console.Write("\tInvoking delegate byeDel:"); byeDel("B\n");
@@ -74,5 +73,61 @@ namespace Basics
         {
             Console.Write("  Goodbye, {0}", s);
         }
+
+        public void ActionExample(string msg)
+        {
+            // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Action%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2);k(DevLang-csharp)&rd=true
+            Action<string> messageTarget = null;
+            if (msg == null)
+            {
+                Console.WriteLine("\tActions - ");
+            }
+            else
+            {
+                messageTarget = ShowWindowsMessage;
+            }
+            //if (messageTarget != null) messageTarget(msg);
+            messageTarget?.Invoke(msg);
+        }
+
+        public void AnonymousExample(string msg)
+        {
+            Action<string> messageTarget = null;
+            if (msg.Length > 2)
+            {
+                messageTarget = delegate (string s) { ShowWindowsMessage(s); };
+            }
+            else
+            {
+                messageTarget = delegate (string s) { Console.WriteLine(s); };
+            }
+            messageTarget(msg);
+        }
+
+        public void LambdaExample(string msg)
+        {
+            Action<string> messageTarget = null;
+            if (msg.Length > 2)
+            {
+                messageTarget = s => ShowWindowsMessage(s);
+
+            }
+            else
+            {
+                messageTarget = s => Console.WriteLine(s);
+            }
+            messageTarget(msg);
+        }
+
+        private static void ShowWindowsMessage(string message)
+        {
+            Console.WriteLine(message);
+        }
+
+        public void FuncExample()
+        {
+            // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Func%602);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2);k(DevLang-csharp)&rd=true
+        }
     }
 }
+

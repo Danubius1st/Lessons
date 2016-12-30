@@ -33,3 +33,16 @@ C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collecti
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.pdb
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.dll
 C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.pdb
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Strings.dll
+C:\Users\new\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Strings.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collections.exe
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Collections.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Basics.dll
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.dll
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpressions.dll
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Strings.dll
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Basics.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Lambdas.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\LinqExpressions.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\bin\Debug\Strings.pdb
+C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Collections\obj\Debug\Collections.csprojResolveAssemblyReference.cache

@@ -14,7 +14,7 @@ namespace Basics
         }
     }
 
-    class Example
+    internal class Example
     {
         //
         //operator (C# Reference)
