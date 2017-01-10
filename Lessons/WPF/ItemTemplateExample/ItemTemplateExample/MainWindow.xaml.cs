@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApplication.UI
+namespace ItemTemplateExample
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,7 +22,12 @@ namespace WpfApplication.UI
     {
         public MainWindow()
         {
+            // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Windows.Controls.ItemsControl.ItemTemplate);k(VS.XamlEditor);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2)&rd=true
             InitializeComponent();
+
+            string TaskName = "TaskName";
+            string Description = "Description";
+            string Priority = "Priority";
         }
     }
 }
