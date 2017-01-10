@@ -23,6 +23,7 @@ namespace ItemTemplateExample
         public MainWindow()
         {
             // https://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k(System.Windows.Controls.ItemsControl.ItemTemplate);k(VS.XamlEditor);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.5.2)&rd=true
+            // http://www.wpf-tutorial.com/wpf-application/resources/
             InitializeComponent();
 
             string TaskName = "TaskName";
