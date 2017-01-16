@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ItemTemplateExample.Properties
+namespace MultipleViews.Properties
 {
 
 
