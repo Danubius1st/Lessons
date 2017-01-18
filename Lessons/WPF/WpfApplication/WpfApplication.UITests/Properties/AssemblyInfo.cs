@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WpfApplication.DataAccess")]
+[assembly: AssemblyTitle("WpfApplication.UITests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WpfApplication.DataAccess")]
+[assembly: AssemblyProduct("WpfApplication.UITests")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0daf37bc-6dd7-4628-b491-04a90d07fa5a")]
+[assembly: Guid("acbbeaab-1472-44fe-b3ee-79a6e11e6273")]
 
 // Version information for an assembly consists of the following four values:
 //

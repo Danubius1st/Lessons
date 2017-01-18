@@ -1,8 +1,7 @@
-﻿using System;
-using System.Windows;
-using WpfApplication.ViewModel;
+﻿using System.Windows;
+using WpfApplication.UI.ViewModel;
 
-namespace WpfApplication.View
+namespace WpfApplication.UI.View
 {
     public partial class MainWindow : Window
     {
@@ -12,12 +11,8 @@ namespace WpfApplication.View
         {
             InitializeComponent();
             Loaded += MainWindow_Loaded;
-            DataContext = _viewModel = viewModel;
-        }
 
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
+            DataContext = _viewModel = viewModel;
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
