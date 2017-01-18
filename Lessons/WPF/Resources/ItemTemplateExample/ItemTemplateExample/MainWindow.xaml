@@ -27,9 +27,11 @@
             <sys:String x:Key="strPanel">Hello, Panel World!</sys:String>
         </DockPanel.Resources>
         <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">
-            <Button Name="ClickMe" Click="btnClickMe_Click">Click Me!</Button>
+            <Button Name="ClickMe" Click="BtnClickMe_Click">Click Me!</Button>
+            <Button Name="LvClick" Click="LvClick_Click">ListView fill</Button>
         </WrapPanel>
-        <ListBox Name="lbResult" />
+        <ListBox Name="lbResult"/>
+        <ListView Name="lvDataBinding"/>
 
         <StackPanel Margin="10">
             <TextBlock Text="{StaticResource strHelloWorld}" FontSize="20"/>
