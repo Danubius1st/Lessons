@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace DependencyPropertyExample
 {
@@ -24,6 +12,28 @@ namespace DependencyPropertyExample
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public static readonly DependencyProperty IsValuePassedProperty = DependencyProperty.RegisterAttached("IsValuePassed", typeof(bool), typeof(MainWindow), new FrameworkPropertyMetadata(new PropertyChangedCallback(IsValuePassed_Changed)));
+
+        private static void IsValuePassed_Changed(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            MessageBox.Show("Value Passed: " + e.OldValue + " => " + e.NewValue);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SetIsValuePassed(this, !(bool)GetValue(IsValuePassedProperty));
+        }
+
+        public static void SetIsValuePassed(DependencyObject d, bool value)
+        {
+            d.SetValue(IsValuePassedProperty, value);
+        }
+
+        public static bool GetIsValuePassed(DependencyObject d)
+        {
+            return (bool)d.GetValue(IsValuePassedProperty);
         }
     }
 }
