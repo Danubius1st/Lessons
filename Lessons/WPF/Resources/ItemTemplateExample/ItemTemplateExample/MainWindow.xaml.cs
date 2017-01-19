@@ -1,9 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
-<<<<<<< HEAD
-using System.Windows.Documents;
-=======
->>>>>>> d6ccff03039692c02479c0c7449a4b21393aec5f
 
 namespace ItemTemplateExample
 {
@@ -20,8 +16,11 @@ namespace ItemTemplateExample
 
             List<User> items = new List<User>()
             {
-                new User(){ Name = "John Doe", Age = 42; }
+                new User(){ Name = "John Doe", Age = 42, Mail="john@doe.com" },
+                new User(){ Name = "Jane Doe", Age = 39, Mail="jane@doe.com" },
+                new User(){ Name="Sammy Doe", Age=13, Mail="sammy@doe.com" }
             };
+            lvDataBinding.ItemsSource = items;
         }
 
         private void BtnClickMe_Click(object sender, RoutedEventArgs e)
@@ -33,22 +32,6 @@ namespace ItemTemplateExample
 
         private void LvClick_Click(object sender, RoutedEventArgs e)
         {
-            List<User> items = new List<User>()
-            {
-                new User(){ Name = "John Doe", Age = 42; }
-            };
         }
     }
-
-    internal class User
-    {
-    public int Age { get; internal set; }
-    public string Name { get; internal set; }
-    }
-
-    internal class User
-{
-    public int Age { get; internal set; }
-    public string Name { get; internal set; }
-}
 }

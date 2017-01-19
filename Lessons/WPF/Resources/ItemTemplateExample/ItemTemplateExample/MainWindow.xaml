@@ -28,10 +28,23 @@
         </DockPanel.Resources>
         <WrapPanel DockPanel.Dock="Top" HorizontalAlignment="Center" Margin="10">
             <Button Name="ClickMe" Click="BtnClickMe_Click">Click Me!</Button>
-            <Button Name="LvClick" Click="LvClick_Click">ListView fill</Button>
         </WrapPanel>
         <ListBox Name="lbResult"/>
-        <ListView Name="lvDataBinding"/>
+        <ListView Name="lvDataBinding">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Name: "/>
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                        <TextBlock Text=", "/>
+                        <TextBlock Text="{Binding Age}" FontWeight="Bold"/>
+                        <TextBlock Text=" ("/>
+                        <TextBlock Text="{Binding Mail}" FontWeight="Bold"/>
+                        <TextBlock Text=")"/>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
         <StackPanel Margin="10">
             <TextBlock Text="{StaticResource strHelloWorld}" FontSize="20"/>
