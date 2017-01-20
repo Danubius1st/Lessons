@@ -29,9 +29,5 @@ namespace ItemTemplateExample
             lbResult.Items.Add(pnlMain.FindResource("strHelloWorld").ToString());
             lbResult.Items.Add(Application.Current.FindResource("strApp").ToString());
         }
-
-        private void LvClick_Click(object sender, RoutedEventArgs e)
-        {
-        }
     }
 }
