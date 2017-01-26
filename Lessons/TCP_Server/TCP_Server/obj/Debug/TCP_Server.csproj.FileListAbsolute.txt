@@ -1,6 +1,0 @@
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe.config
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csprojResolveAssemblyReference.cache
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\obj\Debug\TCP_Server.exe
-C:\Users\Adrian\Documents\GitHub\Danubius1st\Lessons\TCP_Server\TCP_Server\obj\Debug\TCP_Server.pdb

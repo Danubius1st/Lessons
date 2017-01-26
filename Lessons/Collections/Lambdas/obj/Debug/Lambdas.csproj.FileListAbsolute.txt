@@ -1,8 +1,0 @@
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambdas\bin\Debug\Lambdas.dll
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambdas\bin\Debug\Lambdas.pdb
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambdas\obj\Debug\Lambdas.dll
-C:\Users\new\Documents\GitHub\Lessons\Collections\Lambdas\obj\Debug\Lambdas.pdb
-C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Lambdas\bin\Debug\Lambdas.dll
-C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Lambdas\bin\Debug\Lambdas.pdb
-C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Lambdas\obj\Debug\Lambdas.dll
-C:\Users\Adrian\Documents\GitHub\Lessons\Collections\Lambdas\obj\Debug\Lambdas.pdb
