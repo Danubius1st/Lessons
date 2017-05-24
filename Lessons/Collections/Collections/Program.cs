@@ -17,7 +17,7 @@ namespace Collections
                 Console.Write("Collections - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
@@ -75,10 +75,10 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.Write("Basics - Enter exercise no: (1 to 4) ");
+                Console.Write("Basics - Enter exercise no: (1 to 5) ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
@@ -106,6 +106,11 @@ namespace Collections
                         DelegateExample del4 = new DelegateExample(); del4.LambdaExample("ex. 4.1 - Actions / Delegates - lambdas\n");
                         break;
 
+                    case 5:
+                        ConstructorChain cc1 = new ConstructorChain("ex. 5.1 - Constructor Chain:");
+                        ConstructorChain cc2 = new ConstructorChain();
+                        break;
+
                     default:
                         Console.WriteLine("Not implemented!");
                         break;
@@ -122,7 +127,7 @@ namespace Collections
                 Console.Write("Lambdas - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
@@ -162,7 +167,7 @@ namespace Collections
                 Console.Write("Linq - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
@@ -202,7 +207,7 @@ namespace Collections
                 Console.Write("Strings - Enter exercise no: (1 to 4) ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
@@ -244,7 +249,7 @@ namespace Collections
                 Console.Write("Basics (1)\nCollections (2)\nLambdas (3)\nLinq (4)\nStrings (5)\n0 - exit: ");
                 string input = Console.ReadLine();
 
-                System.Console.Clear();
+                Console.Clear();
                 int.TryParse(input, out test);
                 Console.ForegroundColor = ConsoleColor.Green;
                 switch (test)
