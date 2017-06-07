@@ -88,9 +88,10 @@ namespace Collections
 
                     case 1:
                         TypeCodeExample tc = new TypeCodeExample("ex. 1.1 - TypeCode Enumeration");
-                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex1.2 - Null Coalescing Operator");
-                        FormatExample fe = new FormatExample("ex. 1.3 - Format");
-                        DelegateExample del = new DelegateExample(); del.Example("ex. 1.4 - Delegates");
+                        NullCoalescingOperatorExample nco = new NullCoalescingOperatorExample("ex. 1.2 - Null Coalescing Operator");
+                        TestOperator to = new TestOperator("Ex. 1.3 - Test Operator", null);
+                        FormatExample fe = new FormatExample("ex. 1.4 - Format");
+                        DelegateExample del = new DelegateExample(); del.Example("ex. 1.5 - Delegates");
                         del.Example();
                         break;
 
