@@ -75,7 +75,7 @@ namespace Collections
             while (test != 0)
             {
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.Write("Basics - Enter exercise no: (1 to 5) ");
+                Console.Write("Basics - Enter exercise no: (1 to 6) ");
                 string input = Console.ReadLine();
 
                 Console.Clear();
@@ -110,6 +110,12 @@ namespace Collections
                     case 5:
                         ConstructorChain cc1 = new ConstructorChain("ex. 5.1 - Constructor Chain:");
                         ConstructorChain cc2 = new ConstructorChain();
+                        break;
+
+                    case 6:
+                        string s = "Hello Extension Methods";
+                        int i = s.WordCount();
+                        Console.WriteLine($"\tex. 6.1 - Extension Methods: The text \"{s}\" has {i} words");
                         break;
 
                     default:

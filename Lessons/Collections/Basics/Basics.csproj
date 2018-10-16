@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ConstructorChain.cs" />
     <Compile Include="DelegateExample.cs" />
+    <Compile Include="ExtensionMethod.cs" />
     <Compile Include="FormatExample.cs" />
     <Compile Include="NullCoalescingOperatorExample.cs" />
     <Compile Include="OperatorExample.cs" />
